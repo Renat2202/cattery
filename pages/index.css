@@ -1,1 +1,33 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Roboto/roboto.css);
+@import url(../vendor/fonts/Yeseva_One/yeseva_one.css);
+
+@import url(../blocks/wrapper/wrapper.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__items/header__items.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__item/_line/header__item_line.css);
+@import url(../blocks/header/__item/_vk/header__item_vk.css);
+@import url(../blocks/header/__item/_tw/header__item_tw.css);
+@import url(../blocks/header/__item/_fb/header__item_fb.css);
+
+@import url(../blocks/header/__info/header__info.css);
+@import url(../blocks/header/__city/header__city.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__caption/header__caption.css);
+@import url(../blocks/header/__button/header__button.css);
+
+@import url(../blocks/pets/pets.css);
+@import url(../blocks/pets/__wrapper/pets__wrapper.css);
+@import url(../blocks/pets/__title/pets__title.css);
+@import url(../blocks/pets/__caption/pets__caption.css);
+@import url(../blocks/pets/__slider/pets__slider.css);
+@import url(../blocks/pets/__pages/pets__pages.css);
+@import url(../blocks/pets/__page/pets__page.css);
+@import url(../blocks/pets/__images/pets__images.css);
+@import url(../blocks/pets/__image/pets__image.css);

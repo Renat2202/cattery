@@ -1,0 +1,30 @@
+.header__item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 15px;
+}
+
+.header__item:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.header__item:nth-of-type(2) {
+    margin-top: 31px;
+}
+
+@media screen and (max-width: 1140px) {
+    .header__item  {
+        margin-top: 0;
+        margin-right: 12px;
+        margin-bottom: 46px;
+    }
+
+    .header__item:nth-of-type(1) {
+        margin-top: 0;
+    }
+    
+    .header__item:nth-of-type(2) {
+        margin-top: 0;
+    }
+}

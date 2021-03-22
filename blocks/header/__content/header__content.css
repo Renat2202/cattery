@@ -1,0 +1,17 @@
+.header__content {
+    display: flex;
+}
+
+
+@media screen and (max-width: 1140px) {
+    .header__content {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__content {
+        align-items: center;
+        text-align: center;
+    }
+}

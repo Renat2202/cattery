@@ -1,0 +1,8 @@
+.pets {
+    background-color: #1F1C1D;
+}
+
+.pets::before {
+    content: "";
+    display: table;
+}

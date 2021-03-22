@@ -1,0 +1,16 @@
+.header__title {
+    margin: 21px 0 0;
+    padding: 0;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 767px) {
+    .header__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}

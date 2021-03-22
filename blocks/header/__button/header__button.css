@@ -1,0 +1,33 @@
+.header__button {
+    display: flex;
+    box-sizing: border-box;
+    width: 200px;
+    height: 52px;
+    margin-top: 47px;
+    margin-bottom: 174px;
+    border: 0.5px solid #A07B50;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header__button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1140px) {
+    .header__button {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__button {
+        margin-bottom: 276px;
+    }
+}

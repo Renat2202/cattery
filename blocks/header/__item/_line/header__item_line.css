@@ -1,0 +1,11 @@
+.header__item_line {
+    height: 77.5px;
+    width: 1px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1140px) {
+    .header__item_line{
+        display: none;
+    }
+}

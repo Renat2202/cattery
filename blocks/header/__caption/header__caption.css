@@ -1,0 +1,15 @@
+.header__caption {
+    max-width: 330px;
+    margin: 16px 0 0;
+    color: #A07B50;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__caption {
+        font-size: 14px;
+        line-height: 150%;
+    }
+}

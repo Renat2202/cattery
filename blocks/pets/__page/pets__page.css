@@ -1,0 +1,13 @@
+.pets__page {
+    margin-right: 26px;
+    font-family: 'Roboto Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.pets__page:last-of-type {
+    margin-right: 0;
+}

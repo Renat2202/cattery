@@ -1,0 +1,8 @@
+.header {
+    background-color: #181617;
+}
+
+.header::before {
+    content: "";
+    display: table;
+}
