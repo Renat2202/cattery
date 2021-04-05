@@ -1,0 +1,12 @@
+.species__caption {
+    margin: 23px auto 0;
+    max-width: 735px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #A07B50;
+}

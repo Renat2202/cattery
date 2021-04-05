@@ -1,0 +1,11 @@
+.advantages__item {
+    position: relative;
+    width: 360px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F1C1D;
+    background-repeat: no-repeat;
+    background-position: 50% 28%;
+}

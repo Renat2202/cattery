@@ -1,0 +1,6 @@
+.advantages__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 47px 0 0;
+}

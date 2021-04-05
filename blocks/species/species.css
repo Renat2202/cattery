@@ -1,0 +1,13 @@
+.species {
+    background-color: #1F1C1D;
+}
+
+.species::before {
+    content: "";
+    display: table;
+}
+
+.species::after {
+    content: "";
+    display: table;
+}

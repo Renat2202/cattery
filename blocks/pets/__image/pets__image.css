@@ -1,0 +1,15 @@
+.pets__image {
+
+}
+
+.pets__image:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.pets__image:nth-child(2) {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.pets__image:nth-child(3) {
+    grid-area: 2 / 1 / 3 / 2;
+}

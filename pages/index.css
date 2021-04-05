@@ -31,3 +31,33 @@
 @import url(../blocks/pets/__page/pets__page.css);
 @import url(../blocks/pets/__images/pets__images.css);
 @import url(../blocks/pets/__image/pets__image.css);
+@import url(../blocks/pets/__button/pets__button.css);
+
+
+@import url(../blocks/species/species.css);
+@import url(../blocks/species/__wrapper/species-wrapper.css);
+@import url(../blocks/species/__title/species__title.css);
+@import url(../blocks/species/__caption/species__caption.css);
+@import url(../blocks/species/__content/species__content.css);
+@import url(../blocks/species/__image/species__image.css);
+@import url(../blocks/species/__info/species__info.css);
+@import url(../blocks/species/__item/species__item.css);
+@import url(../blocks/species/__item-one/species__item-one.css);
+@import url(../blocks/species/__item-two/species__item-two.css);
+@import url(../blocks/species/__item-three/species__item-three.css);
+@import url(../blocks/species/__item-four/species__item-four.css);
+
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__wrapper/advantages__wrapper.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__list/advantages__list.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__item-one/advantages__item-one.css);
+@import url(../blocks/advantages/__item-two/advantages__item-two.css);
+@import url(../blocks/advantages/__item-three/advantages__item-three.css);
+@import url(../blocks/advantages/__item-one/_active/advantages__item-one_active.css);
+@import url(../blocks/advantages/__item-two/_active/advantages__item-two_active.css);
+@import url(../blocks/advantages/__item-three/_active/advantages__item-three_active.css);
+@import url(../blocks/advantages/__item/_active/advantages__item_active.css);
+@import url(../blocks/advantages/__item-caption/advantages__item-caption.css);
