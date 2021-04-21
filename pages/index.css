@@ -53,11 +53,15 @@
 @import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
 @import url(../blocks/advantages/__list/advantages__list.css);
 @import url(../blocks/advantages/__item/advantages__item.css);
-@import url(../blocks/advantages/__item-one/advantages__item-one.css);
-@import url(../blocks/advantages/__item-two/advantages__item-two.css);
-@import url(../blocks/advantages/__item-three/advantages__item-three.css);
-@import url(../blocks/advantages/__item-one/_active/advantages__item-one_active.css);
-@import url(../blocks/advantages/__item-two/_active/advantages__item-two_active.css);
-@import url(../blocks/advantages/__item-three/_active/advantages__item-three_active.css);
+@import url(../blocks/advantages/__item-image/advantages__item-image.css);
 @import url(../blocks/advantages/__item/_active/advantages__item_active.css);
 @import url(../blocks/advantages/__item-caption/advantages__item-caption.css);
+
+@import url(../blocks/care/care.css);
+@import url(../blocks/care/__wrapper/care__wrapper.css);
+@import url(../blocks/care/__title/care__title.css);
+@import url(../blocks/care/__list/care__list.css);
+@import url(../blocks/care/__item/care__item.css);
+@import url(../blocks/care/__item-link/care__item-link.css);
+@import url(../blocks/care/__item-title/care__item-title.css);
+@import url(../blocks/care/__item-caption/care__item-caption.css);

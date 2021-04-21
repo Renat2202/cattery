@@ -1,0 +1,10 @@
+.care__item-title {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #A07B50;
+}

@@ -1,11 +1,29 @@
 .advantages__item {
+    padding: 66px 0 41px;
+    box-sizing: border-box;
     position: relative;
     width: 360px;
     height: 301px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F1C1D;
     background-repeat: no-repeat;
     background-position: 50% 28%;
+}
+
+.advantages__item:hover::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    width: 320px;
+    height: 267px;
+    background-color: #A07B50;
+}
+
+.advantages__item:hover * {
+    fill: #FFFFFF;
+    z-index: 2;
 }

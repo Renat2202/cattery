@@ -1,5 +1,5 @@
 .advantages__item-caption {
-    margin: 207px 0 0;
+    margin: 0;
     max-width: 233px;
     font-family: 'Roboto';
     font-style: normal;
@@ -9,4 +9,6 @@
     text-align: center;
 
     color: #FFFFFF;
+
+    z-index: 2;
 }

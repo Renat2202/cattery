@@ -1,0 +1,11 @@
+.care__list {
+    width: 100%;
+    margin: 48px 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 43px;
+    grid-column-gap: 41.9px;
+}

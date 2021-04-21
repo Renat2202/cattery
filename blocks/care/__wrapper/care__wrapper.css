@@ -1,0 +1,11 @@
+.care__wrapper {
+    padding: 0 0 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.care__wrapper::before {
+    content: "";
+    display: table;
+}
