@@ -1,0 +1,8 @@
+.team__button {
+    display: block;
+    position: absolute;
+    top: 406px;
+    width: 12px;
+    height: 29px;
+    background-image: url(../../../../images/team-arrow.svg);
+}

@@ -16,3 +16,7 @@
     height: 100%;
     background-color: #A07B50;
 }
+
+.care__item-link:hover::before {
+    background-color: #865c2d;
+}

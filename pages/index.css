@@ -65,3 +65,22 @@
 @import url(../blocks/care/__item-link/care__item-link.css);
 @import url(../blocks/care/__item-title/care__item-title.css);
 @import url(../blocks/care/__item-caption/care__item-caption.css);
+
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__wrapper/team__wrapper.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__subtitle/team__subtitle.css);
+@import url(../blocks/team/__list/team__list.css);
+@import url(../blocks/team/__member/team__member.css);
+@import url(../blocks/team/__member-photo/team__member-photo.css);
+@import url(../blocks/team/__member-name/team__member-name.css);
+@import url(../blocks/team/__member-position/team__member-position.css);
+@import url(../blocks/team/__member-quote/team__member-quote.css);
+@import url(../blocks/team/__member-social/team__member-social.css);
+@import url(../blocks/team/__member-social-item/team__member-social-item.css);
+@import url(../blocks/team/__member-social-item/_fb/team__member-social-item_fb.css);
+@import url(../blocks/team/__member-social-item/_tw/team__member-social-item_tw.css);
+@import url(../blocks/team/__member-social-item/_vk/team__member-social-item_vk.css);
+@import url(../blocks/team/__button/team__button.css);
+@import url(../blocks/team/__button/_prev/team__button_prev.css);
+@import url(../blocks/team/__button/_next/team__button_next.css);

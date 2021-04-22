@@ -1,0 +1,13 @@
+.team {
+    background-color: #151313;
+}
+
+.team::before {
+    content: "";
+    display: table;
+}
+
+.team::after {
+    content: "";
+    display: table;
+}

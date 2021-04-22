@@ -4,17 +4,7 @@
     padding: 38px 78px 43px 59px;
 }
 
-/* .care__item::before {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: ">";
-    color: #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 100%;
-    background-color: #A07B50;
-} */
+.care__item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #865c2d;
+}
