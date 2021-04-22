@@ -1,5 +1,6 @@
 .team__member-social {
     display: flex;
+    align-items: center;
     padding: 0;
     margin: 43px 0 0;
     list-style-type: none;
