@@ -98,3 +98,19 @@
 @import url(../blocks/question/__content/question__content.css);
 @import url(../blocks/question/__title/question__title.css);
 @import url(../blocks/question/__answer/question__answer.css);
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__wrapper/reviews__wrapper.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__list/reviews__list.css);
+
+@import url(../blocks/review/review.css);
+@import url(../blocks/review/__photo/review__photo.css);
+@import url(../blocks/review/__name/review__name.css);
+@import url(../blocks/review/__text/review__text.css);
+@import url(../blocks/review/__bottom/review__bottom.css);
+@import url(../blocks/review/__date/review__date.css);
+@import url(../blocks/review/__social-items/review__social-items.css);
+@import url(../blocks/review/__social-item/review__social-item.css);
+@import url(../blocks/review/__social-item/_tw/review__social-item_tw.css);
+@import url(../blocks/review/__social-item/_vk/review__social-item_vk.css);
