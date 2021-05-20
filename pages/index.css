@@ -3,6 +3,7 @@
 @import url(../vendor/fonts/Yeseva_One/yeseva_one.css);
 
 @import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/hidden/hidden.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -84,3 +85,16 @@
 @import url(../blocks/team/__button/team__button.css);
 @import url(../blocks/team/__button/_prev/team__button_prev.css);
 @import url(../blocks/team/__button/_next/team__button_next.css);
+
+@import url(../blocks/questions/questions.css);
+@import url(../blocks/questions/__wrapper/questions__wrapper.css);
+@import url(../blocks/questions/__title/questions__title.css);
+@import url(../blocks/questions/__subtitle/questions__subtitle.css);
+@import url(../blocks/questions/__list/questions__list.css);
+
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/_active/question_active.css);
+@import url(../blocks/question/__number/question__number.css);
+@import url(../blocks/question/__content/question__content.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__answer/question__answer.css);

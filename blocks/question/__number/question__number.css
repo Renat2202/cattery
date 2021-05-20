@@ -1,0 +1,13 @@
+.question__number {
+    /* position: absolute; */
+    /* top: 14px;
+    left: -116px; */
+    margin-right: 29px;
+    margin-top: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+    color: #A07B50;
+}

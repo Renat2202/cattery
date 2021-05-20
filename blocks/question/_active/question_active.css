@@ -1,0 +1,9 @@
+.question_active {
+    
+}
+
+.question::after {
+    content: "-";
+    color: #FFF;
+    background-color: #A07B50;
+}
