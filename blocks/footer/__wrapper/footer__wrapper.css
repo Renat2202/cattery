@@ -1,0 +1,7 @@
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 68px 274px 67px 245px;
+}

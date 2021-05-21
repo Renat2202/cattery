@@ -114,3 +114,14 @@
 @import url(../blocks/review/__social-item/review__social-item.css);
 @import url(../blocks/review/__social-item/_tw/review__social-item_tw.css);
 @import url(../blocks/review/__social-item/_vk/review__social-item_vk.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__social-list/footer__social-list.css);
+@import url(../blocks/footer/__social-item/footer__social-item.css);
+@import url(../blocks/footer/__social-item/_fb/footer__social-item_fb.css);
+@import url(../blocks/footer/__social-item/_tw/footer__social-item_tw.css);
+@import url(../blocks/footer/__social-item/_vk/footer__social-item_vk.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__phone/footer__phone.css);

@@ -1,0 +1,15 @@
+.footer {
+    background-color: #151313;
+}
+
+.footer::before {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.footer::after {
+    display: table;
+    content: "";
+    clear: both;
+}
