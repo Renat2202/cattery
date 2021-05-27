@@ -1,16 +1,11 @@
 .team__member {
+    display: flex;
     position: relative;
-    left: 180px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 69px 103px 72px 98px;
-    max-width: 600px;
-    max-height: 356px;
-    background-color: #1F1C1D;
-    z-index: 1;
+    width: 100%;
+    
 }
 
-.team__member::before {
+/* .team__member::before {
     box-sizing: border-box;
     content: "";
     position: absolute;
@@ -20,4 +15,4 @@
     right: -34px;
     border: 0.5px solid rgba(160, 123, 80, 0.43);
     z-index: -1;
-}
+} */

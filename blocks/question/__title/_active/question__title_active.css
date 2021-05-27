@@ -1,0 +1,9 @@
+.question__title_active {
+    
+}
+
+.question__title_active.question__title::after {
+    content: "-";
+    color: #FFF;
+    background-color: #A07B50;
+}

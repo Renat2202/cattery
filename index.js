@@ -1,27 +1,39 @@
-const questionTitle = document.querySelectorAll('.question__title');
-const questionsList = document.querySelectorAll('.question');
+import { Question } from "./components/Question.js";
+import { Slider } from "./components/Slider.js";
+import { questionsContent } from './utils/questions-content.js';
+
+const template = document.querySelector(".question-template");
+const questionsList = document.querySelector('.questions__list');
 
 
 
+function createQuestion(questionInfo, questionNumber) {
+    const question = new Question(questionInfo, questionNumber, template);
 
-class Question {
-    constructor(questionSelector) {
-        this._questionTitle = this.querySelector('.question__title');
-        this._questionAnswer = this.querySelector('.question__answer');
-    }
+    const newQuestion = question.generateQuestion();
 
-    _showAnswer() {
-        this._questionAnswer.classList.toggle('.hidden');
-    }
-
-    addEventListners() {
-        this._questionTitle.addEventListner('click', () => {
-            this._showAnswer();
-        })
-    }
+    return newQuestion;
 }
 
-questionsList.forEach(item => {
-    item = new Question();
-    item.addEventListners();
-})
+function renderQuestions() {
+    questionsContent.forEach((item, index) => {
+        const questionItem = createQuestion(item, index);
+        
+        questionsList.append(questionItem);
+    })
+}
+
+renderQuestions();
+
+
+
+
+const newSlider = new Slider (
+    '.slider',
+    '.slider__wrapper',
+    '.slider__item',
+    '.slider__prev',
+    '.slider__next'
+    );
+
+newSlider.sliderInit();   

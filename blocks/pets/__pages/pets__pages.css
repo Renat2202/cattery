@@ -1,7 +1,7 @@
 .pets__pages {
     display: flex;
     justify-content: center;
-    margin: 38px 0 0;
+    margin: 43px 0 0;
     padding: 0;
     list-style-type: none;
 }

@@ -1,5 +1,6 @@
 .team__member-photo {
-    position: absolute;
-    top: -23px;
-    left: -335px;
+    position: relative;
+    max-height: 356px;
+    z-index: 2;
+    left: 228px;
 }

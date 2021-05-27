@@ -1,9 +1,6 @@
 .question__answer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     margin: 0;
-    padding: 40px 203px 40px 42.6px;
+    padding: 24px 203px 24px 42.6px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;

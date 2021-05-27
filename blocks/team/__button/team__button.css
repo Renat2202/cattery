@@ -1,6 +1,9 @@
 .team__button {
     display: block;
     position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     top: 406px;
     width: 12px;
     height: 29px;

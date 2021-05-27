@@ -3,8 +3,3 @@
     border: 1px solid #A07B50;
     padding: 38px 78px 43px 59px;
 }
-
-.care__item:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    border: 1px solid #865c2d;
-}
