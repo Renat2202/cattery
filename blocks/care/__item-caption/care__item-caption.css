@@ -8,3 +8,10 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 720px) {
+    .care__item-caption {
+        font-size: 14px;
+        line-height: 140%;
+    }
+}

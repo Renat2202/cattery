@@ -1,6 +1,6 @@
 .team__member-content {
     position: relative;
-    left: 180px;
+    /* left: 180px; */
     box-sizing: border-box;
     margin: 0;
     padding: 92px 103px 95px 124px;
@@ -32,4 +32,19 @@
     background-color: #1F1C1D;
     width: 600px;
     height: 356px;
+}
+
+@media screen and (max-width: 720px) {
+    .team__member-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 290px;
+        background-color: #1F1C1D;
+        padding: 0 11px;
+    }
+
+    .team__member-content::before {
+        display: none;
+    }
 }

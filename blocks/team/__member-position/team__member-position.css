@@ -9,3 +9,11 @@
 
     color: #A07B50;
 }
+
+@media screen and (max-width: 720px) {
+    .team__member-position {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 135.94%;    
+    }
+}

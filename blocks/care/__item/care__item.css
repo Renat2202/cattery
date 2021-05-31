@@ -3,3 +3,9 @@
     border: 1px solid #A07B50;
     padding: 38px 78px 43px 59px;
 }
+
+@media screen and (max-width: 720px) {
+    .care__item {
+        padding: 25px 56px 25px 25px;
+    }
+}

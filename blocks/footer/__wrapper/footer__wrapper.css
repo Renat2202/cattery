@@ -3,5 +3,19 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 68px 274px 67px 245px;
+    padding: 67px 0;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__wrapper {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer__wrapper {
+        flex-direction: column-reverse;
+        padding: 40px 0;
+    }
 }

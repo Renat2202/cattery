@@ -1,6 +1,37 @@
 .species__item-two {
     max-width: 212px;
-    position: absolute;
     top: 531px;
     left: -216px;
+}
+
+.species__item-two::before {
+    top: 13px;
+    left: 233px;
+}
+
+@media screen and (max-width: 1070px) {
+    .species__item-two {
+        max-width: 139px;
+        top: 324px;
+        left: -146px;
+    }
+
+    .species__item-two::before {
+        top: 14px;
+        left: 149px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .species__item-two {
+        max-width: 233px;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    .species__item-two::before {
+            left: -26px;
+            top: 14px;
+    }
 }

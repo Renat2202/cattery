@@ -1,7 +1,4 @@
 .question__number {
-    /* position: absolute; */
-    /* top: 14px;
-    left: -116px; */
     margin-right: 29px;
     margin-top: 12px;
     font-family: 'Roboto';
@@ -11,3 +8,16 @@
     line-height: 82px;
     color: #A07B50;
 }
+
+@media screen and (max-width: 1000px) {
+    .question__number {
+        font-size: 50px;
+        line-height: 59px;
+    }
+} 
+
+@media screen and (max-width: 720px) {
+    .question__number {
+        display: none;
+    }
+} 

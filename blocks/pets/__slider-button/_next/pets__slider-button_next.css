@@ -1,0 +1,4 @@
+.pets__slider-button_next {
+    right: 20px;
+    transform: rotate(180deg);
+}

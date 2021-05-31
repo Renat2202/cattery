@@ -11,3 +11,15 @@
     border-top: none;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1000px) {
+    .question__answer  {
+        padding: 10px 141px 10px 29px;
+    }
+} 
+
+@media screen and (max-width: 720px) {
+    .question__answer  {
+        padding: 1px 27px 1px 15px;
+    }
+} 

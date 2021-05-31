@@ -6,3 +6,9 @@
     font-weight: normal;
     line-height: 42px;
 }
+
+@media screen and (max-width: 1070px) {
+    .pets__title {
+        margin-top: 100px;
+    }
+}

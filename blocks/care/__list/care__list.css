@@ -1,5 +1,5 @@
 .care__list {
-    width: 100%;
+    max-width: 100%;
     margin: 48px 0 0;
     padding: 0;
     list-style-type: none;
@@ -8,4 +8,18 @@
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 43px;
     grid-column-gap: 41.9px;
+}
+
+@media screen and (max-width: 1070px) {
+    .care__list {
+        max-width: 558px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .care__list {
+        max-width: 290px;
+    }
 }

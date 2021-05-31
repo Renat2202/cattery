@@ -1,0 +1,17 @@
+.pets__slider-button {
+    position: absolute;
+    display: none;
+    top: 550px;
+    cursor: pointer;
+    width: 12px;
+    height: 29.56px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../../images/team-arrow.svg);
+}
+
+@media screen and (max-width: 1070px) {
+    .pets__slider-button {
+        display: block;
+    }
+}

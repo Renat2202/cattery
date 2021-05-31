@@ -1,3 +1,17 @@
 .question__content {
     width: 793px;
 }
+
+@media screen and (max-width: 1000px) {
+    .question__content {
+        width: 553px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .question__content {
+        width: 290px;
+    }
+}
+
+

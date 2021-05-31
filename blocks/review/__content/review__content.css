@@ -1,0 +1,28 @@
+.review__content {
+    position: relative;
+    /* right: 140px; */
+    margin-left: -140px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 109px 87px 99px 145px;
+    max-width: 640px;
+    max-height: 408px;
+    background-color: #151313;
+}
+
+@media screen and (max-width: 1100px) {
+    .review__content {
+        margin-left: 0;
+        padding: 148px 74px 36px 97px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .review__content {
+        padding: 118px 31px 40px 32px;
+    }
+}

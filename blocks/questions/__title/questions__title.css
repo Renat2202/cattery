@@ -7,3 +7,10 @@
     line-height: 42px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 720px) {
+    .questions__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}

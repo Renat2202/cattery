@@ -41,18 +41,26 @@
                         Все представители нашего питомника имеют ветеринарный паспорт 
                         с отметками о прививках и документ с родословной
                     </p>
-                    <div class="pets__slider">
-                        <ul class="pets__pages">
-                            <li class="pets__page">Коты</li>
-                            <li class="pets__page">Кошки</li>
-                            <li class="pets__page">Котята</li>
-                        </ul>
-                        <div class="pets__images">
-                            <img class="pets__image" src="./images/cat-image-1.png" alt="">
-                            <img class="pets__image" src="./images/cat-image-3.png" alt="">
-                            <img class="pets__image" src="./images/cat-image-2.png" alt="">
+                    <ul class="pets__pages">
+                        <li class="pets__page">Коты</li>
+                        <li class="pets__page">Кошки</li>
+                        <li class="pets__page">Котята</li>
+                    </ul>
+                    <div class="pets__slider slider">
+                        <div class="pets__images slider__wrapper">
+                            <div class="pets__image-container slider__item">
+                                <img class="pets__image" src="./images/cat-image-1.png" alt="">
+                            </div>    
+                            <div class="pets__image-container slider__item">
+                                <img class="pets__image" src="./images/cat-image-3.png" alt="">
+                            </div>    
+                            <div class="pets__image-container slider__item">
+                                <img class="pets__image" src="./images/cat-image-2.png" alt="">
+                            </div>
                         </div>
                     </div>
+                    <button class="pets__slider-button pets__slider-button_prev slider__prev" type="button"></button>
+                    <button class="pets__slider-button pets__slider-button_next slider__next" type="button"></button>
                     <a class="pets__button hover" href="#">Смотреть больше</a>
                 </div>    
             </section>
@@ -65,7 +73,7 @@
                         вы получите умное животное, которому нет равных
                     </p>
                     <div class="species__content">
-                        <img class="species__image" src="./images/species-image.svg" alt="Мейн-Кун">
+                        <img class="species__image" src="./images/species-image-2.svg" alt="Мейн-Кун">
                         <ul class="species__info">
                             <li class="species__item species__item-one">Легко уживается в семьях с детьми или другими животными</li>
                             <li class="species__item species__item-two">Внешний вид этой кошки похож на дикую рысь</li>
@@ -443,17 +451,19 @@
                     <div class="reviews__list">
                         <div class="review">
                             <img class="review__photo" src="./images/review-photo.png" alt="Серёжа Попов">
-                            <h3 class="review__name">Серёжа Попов</h3>
-                            <p class="review__text">
-                                Я выражаю огромную благодарность вашему питомнику.  Мой Феликс невероятно умен и воспитан. 
-                                Огромным плюсом питомника является возможность консультироваться 
-                                в любое время
-                            </p>
-                            <div class="review__bottom">
-                                <span class="review__date">24 мая 2018</span>
-                                <div class="review__social-items">
-                                    <a href="#" class="review__social-item review__social-item_tw"></a>
-                                    <a href="#" class="review__social-item review__social-item_vk"></a>
+                            <div class="review__content">
+                                <h3 class="review__name">Серёжа Попов</h3>
+                                <p class="review__text">
+                                    Я выражаю огромную благодарность вашему питомнику.  Мой Феликс невероятно умен и воспитан. 
+                                    Огромным плюсом питомника является возможность консультироваться 
+                                    в любое время
+                                </p>
+                                <div class="review__bottom">
+                                    <span class="review__date">24 мая 2018</span>
+                                    <div class="review__social-items">
+                                        <a href="#" class="review__social-item review__social-item_tw"></a>
+                                        <a href="#" class="review__social-item review__social-item_vk"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

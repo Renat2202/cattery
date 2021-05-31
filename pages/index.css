@@ -32,7 +32,11 @@
 @import url(../blocks/pets/__pages/pets__pages.css);
 @import url(../blocks/pets/__page/pets__page.css);
 @import url(../blocks/pets/__images/pets__images.css);
+@import url(../blocks/pets/__image-container/pets__image-container.css);
 @import url(../blocks/pets/__image/pets__image.css);
+@import url(../blocks/pets/__slider-button/pets__slider-button.css);
+@import url(../blocks/pets/__slider-button/_prev/pets__slider-button_prev.css);
+@import url(../blocks/pets/__slider-button/_next/pets__slider-button_next.css);
 @import url(../blocks/pets/__button/pets__button.css);
 
 
@@ -108,6 +112,7 @@
 @import url(../blocks/reviews/__list/reviews__list.css);
 
 @import url(../blocks/review/review.css);
+@import url(../blocks/review/__content/review__content.css);
 @import url(../blocks/review/__photo/review__photo.css);
 @import url(../blocks/review/__name/review__name.css);
 @import url(../blocks/review/__text/review__text.css);

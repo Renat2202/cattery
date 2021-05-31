@@ -8,3 +8,13 @@
 
     color: rgba(255, 255, 255, 0.72);
 }
+
+@media screen and (max-width: 720px) {
+    .team__member-quote  {
+        max-width: 268px;
+        margin-top: 25px;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;  
+    }
+}

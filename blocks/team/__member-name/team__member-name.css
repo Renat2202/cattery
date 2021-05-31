@@ -8,3 +8,11 @@
 
     color: #A07B50;
 }
+
+@media screen and (max-width: 720px) {
+    .team__member-name {
+        margin-top: 88px;
+        font-size: 18px;
+        line-height: 21px;      
+    }
+}

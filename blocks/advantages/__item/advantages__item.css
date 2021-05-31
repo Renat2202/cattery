@@ -27,3 +27,24 @@
     fill: #FFFFFF;
     z-index: 2;
 }
+
+@media screen and (max-width: 1070px) {
+    .advantages__item {
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .advantages__item {
+        width: 290px;
+        height: 248px;
+        padding: 35px 0 29px;
+    }
+
+    .advantages__item:hover::before {
+        width: 260px;
+        height: 218px;
+        top: 15px;
+        left: 15px;
+    }
+}

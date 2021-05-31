@@ -1,5 +1,5 @@
 .pets__image {
-
+    margin: 0;
 }
 
 .pets__image:nth-child(1) {
@@ -12,4 +12,15 @@
 
 .pets__image:nth-child(3) {
     grid-area: 2 / 1 / 3 / 2;
+}
+
+@media screen and (max-width: 1070px) {
+    .pets__image {
+        display: flex;
+        width: 80%;
+        /* object-fit: contain; */
+        max-height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
 }

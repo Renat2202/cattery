@@ -8,3 +8,10 @@
 
     color: #A07B50;
 }
+
+@media screen and (max-width: 720px) {
+    .care__item-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

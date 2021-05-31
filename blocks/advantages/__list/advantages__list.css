@@ -2,5 +2,18 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 47px 0 30px;
+    margin: 47px 0 99px;
+}
+
+@media screen and (max-width: 1070px) {
+    .advantages__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .advantages__list {
+        margin: 40px 0 60px;
+    }
 }

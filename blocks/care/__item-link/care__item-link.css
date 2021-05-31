@@ -20,3 +20,9 @@
 .care__item-link:hover::before {
     background-color: #865c2d;
 }
+
+@media screen and (max-width: 720px) {
+    .care__item-link::before {
+        width: 46px;
+    }
+}

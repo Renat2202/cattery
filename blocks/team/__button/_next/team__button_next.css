@@ -2,3 +2,17 @@
     right: 0;
     transform: rotate(180deg);
 }
+
+@media screen and (max-width: 1070px) {
+    .team__button_next {
+        right: -262px;
+        top: -137px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .team__button_next {
+        right: -84px;
+        top: -296px;
+    }
+}

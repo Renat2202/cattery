@@ -1,6 +1,42 @@
 .species__item-one {
     max-width: 254px;
-    position: absolute;
     top: 252px;
     left: -231px;
 }
+
+.species__item-one::before {
+    top: 15px;
+    left: 270px;
+}
+
+@media screen and (max-width: 1070px) {
+    .species__item-one {
+        max-width: 167px;
+        top: 142px;
+        left: -160px;
+    }
+
+    .species__item-one::before {
+        top: 29px;
+        left: 183px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .species__item-one {
+        max-width: 233px;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    .species__item-one::before {
+            left: -26px;
+            top: 14px;
+    }
+}
+
+
+
+

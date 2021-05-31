@@ -9,3 +9,10 @@
     height: 29px;
     background-image: url(../../../../images/team-arrow.svg);
 }
+
+@media screen and (max-width: 1070px) {
+    .team__button {
+        position: relative;
+        top: 0;       
+    }
+}

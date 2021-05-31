@@ -2,5 +2,23 @@
     position: relative;
     max-height: 356px;
     z-index: 2;
-    left: 228px;
+    left: 50px;
+}
+
+@media screen and (max-width: 1070px) {
+    .team__member-photo {
+        position: relative;
+        max-height: 208px;
+        top: -117px;
+        left: 137px;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .team__member-photo {
+        max-height: 126px;
+        top: 65px;
+        left: 0;
+    }
 }

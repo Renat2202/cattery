@@ -9,3 +9,11 @@
     text-align: center;
     color: #A07B50;
 }
+
+@media screen and (max-width: 720px) {
+    .questions__subtitle {
+        max-width: 181px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+}

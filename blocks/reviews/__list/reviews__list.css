@@ -2,5 +2,11 @@
     margin: 58px 0 112px;
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
+    /* align-self: flex-end; */
+}
+
+@media screen and (max-width: 1100px) {
+    .reviews__list {
+        
+    }
 }

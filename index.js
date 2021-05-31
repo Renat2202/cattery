@@ -28,12 +28,22 @@ renderQuestions();
 
 
 
-const newSlider = new Slider (
-    '.slider',
+const newTeamSlider = new Slider (
+    '.team__list',
     '.slider__wrapper',
     '.slider__item',
     '.slider__prev',
     '.slider__next'
     );
 
-newSlider.sliderInit();   
+newTeamSlider.sliderInit();
+
+const newPetSlider = new Slider(
+    '.pets__slider',
+    '.slider__wrapper',
+    '.slider__item',
+    '.slider__prev',
+    '.slider__next'
+);
+
+newPetSlider.sliderInit();

@@ -1,7 +1,38 @@
 .species__item-four {
     max-width: 168px;
-    position: absolute;
     top: 570px;
     right: -762px;
     text-align: left;
+}
+
+.species__item-four::before {
+    top: 14px;
+    left: -35px;
+}
+
+@media screen and (max-width: 1070px) {
+    .species__item-four {
+        max-width: 110px;
+        top: 354px;
+        left: 391px;
+    }
+
+    .species__item-four::before {
+        top: 18px;
+        left: -27px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .species__item-four {
+        max-width: 233px;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    .species__item-four::before {
+            left: -26px;
+            top: 14px;
+    }
 }

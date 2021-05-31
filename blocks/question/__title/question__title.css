@@ -36,5 +36,41 @@
     box-sizing: border-box;
 }
 
+ @media screen and (max-width: 1000px) {
+    .question__title {
+        height: 76px;
+    }
+
+    .question__title span {
+        width: 381px;
+        text-align: left;
+    }
+
+    .question__title::after {  
+         width: 72px;
+         height: 76px; 
+     }
+} 
+
+@media screen and (max-width: 720px) {
+    .question__title {
+        height: 60px;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .question__title span {
+        width: 219px;
+        
+        
+    }
+
+    .question__title::after {  
+         width: 43px;
+         height: 60px; 
+     }
+} 
+
 
 

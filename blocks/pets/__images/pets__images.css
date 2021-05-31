@@ -1,8 +1,25 @@
 .pets__images {
-    margin: 46px 0px 0 32px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* max-width: 100%; */
+    margin: 0 0 0 0;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
     grid-column-gap: 32px;
-    grid-row-gap: 0px;
+    grid-row-gap: 30px;
+}
+
+@media screen and (min-width: 1071px) {
+    .pets__images {
+        transform: translate(0) !important; 
+        display: grid !important;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .pets__images {
+        display: flex;
+        max-width: 100%;
+        margin: 0;
+        grid-column-gap: 0;
+    }
 }

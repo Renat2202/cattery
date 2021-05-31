@@ -11,10 +11,13 @@ export class Question {
         this._element = this._getTemplate();
         this._questionNumber = this._element.querySelector('.question__number');
         this._questionTitle = this._element.querySelector('.question__title');
+        this._buttonText = document.createElement('span');
         this._questionAnswer = this._element.querySelector('.question__answer');
 
-
-        this._questionTitle.textContent = this._title;
+        this._buttonText.textContent = this._title;
+        this._questionTitle.append(this._buttonText);
+        
+        // this._questionTitle.textContent = this._title;
         this._questionNumber.textContent = `0${this._questionIndex + 1}`;
         
         this._text.forEach(element => {

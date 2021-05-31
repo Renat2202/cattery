@@ -6,3 +6,11 @@
     margin: 0;
     list-style-type: none;
 }
+
+@media screen and (max-width: 720px) {
+    .species__info {
+        position: relative;
+        align-self: start;
+        margin-left: 33px;
+    }
+}
