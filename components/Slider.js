@@ -14,7 +14,12 @@ export class Slider {
         this._position = 0;
     }
 
+    _checkStylesPresence() {
+        return document.head.querySelector('style#slider-style');
+    }
+
      _addStyles() {
+         if (!this._checkStylesPresence()) {
             const style = document.createElement('style');
             style.id = 'slider-style';
             style.textContent = `
@@ -34,12 +39,12 @@ export class Slider {
             }
             `
             document.head.append(style);
+        }
     }
 
     setEventListeners() {
         this._prev.addEventListener('click', this._prevSlide.bind(this));
         this._next.addEventListener('click', this._nextSlide.bind(this));
-        // this._cancelTransform();
     }
 
     _prevSlide() {
@@ -68,7 +73,6 @@ export class Slider {
         this._addStyles();
         this.setEventListeners();
     }
-
 
 
 
