@@ -12,5 +12,6 @@
     .header__title {
         font-size: 36px;
         line-height: 42px;
+        max-width: 234px;
     }
 }
